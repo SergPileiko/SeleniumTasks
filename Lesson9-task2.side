@@ -1,0 +1,338 @@
+{
+  "id": "7de4ecbb-f3a2-4b8b-a569-585836f8b923",
+  "version": "2.0",
+  "name": "Lesson9-task2",
+  "url": "https://diary.ru",
+  "tests": [{
+    "id": "1cf4aac1-f3b6-49b9-ac56-7e63c1af5ebc",
+    "name": "CreateUserTest",
+    "commands": [{
+      "id": "31182841-bed2-4662-b403-58ec2d50e124",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9017ca43-b988-4539-b1a8-9bc9ed659e56",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Регистрация",
+      "targets": [
+        ["linkText=Регистрация", "linkText"],
+        ["css=li:nth-child(2) > .dropdown-toggle", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//div[@id='navbar_user-collapse']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://diary.ru/user/registration')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee3d87f0-811a-443f-afbe-37477489feb6",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupform-username",
+      "targets": [
+        ["id=signupform-username", "id"],
+        ["name=SignupForm[username]", "name"],
+        ["css=#signupform-username", "css:finder"],
+        ["xpath=//input[@id='signupform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "245e5024-71da-4169-bc5c-a10a3646cd29",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupform-username",
+      "targets": [
+        ["id=signupform-username", "id"],
+        ["name=SignupForm[username]", "name"],
+        ["css=#signupform-username", "css:finder"],
+        ["xpath=//input[@id='signupform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "TestTset3"
+    }, {
+      "id": "4d6dfbcd-3aa6-41d0-98f8-0b3cfcdb4d31",
+      "comment": "",
+      "command": "click",
+      "target": "id=wrapper",
+      "targets": [
+        ["id=wrapper", "id"],
+        ["css=#wrapper", "css:finder"],
+        ["xpath=//div[@id='wrapper']", "xpath:attributes"],
+        ["xpath=//body/div[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "465a9041-6e9f-4bad-b3bb-724334c6504c",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupform-password",
+      "targets": [
+        ["id=signupform-password", "id"],
+        ["name=SignupForm[password]", "name"],
+        ["css=#signupform-password", "css:finder"],
+        ["xpath=//input[@id='signupform-password']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "TestTset3"
+    }, {
+      "id": "2ee4fafe-f5a6-462c-a8b0-afa513753921",
+      "comment": "",
+      "command": "click",
+      "target": "id=signupform-email",
+      "targets": [
+        ["id=signupform-email", "id"],
+        ["name=SignupForm[email]", "name"],
+        ["css=#signupform-email", "css:finder"],
+        ["xpath=//input[@id='signupform-email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc5e924c-c36f-4326-b5b6-ad3de0b0b63b",
+      "comment": "",
+      "command": "type",
+      "target": "id=signupform-email",
+      "targets": [
+        ["id=signupform-email", "id"],
+        ["name=SignupForm[email]", "name"],
+        ["css=#signupform-email", "css:finder"],
+        ["xpath=//input[@id='signupform-email']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "TestTset3@test.com"
+    }, {
+      "id": "ca16b2ae-930c-4bd6-a3d0-a1780edf05c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=chk_box_user_confirm",
+      "targets": [
+        ["id=chk_box_user_confirm", "id"],
+        ["css=#chk_box_user_confirm", "css:finder"],
+        ["xpath=//input[@id='chk_box_user_confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_form']/div[4]/label/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "161d5925-eea0-4211-84b5-067512aa302e",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "292c48ca-5660-4e92-a4e4-3f44daf20d73",
+      "comment": "",
+      "command": "click",
+      "target": "id=signup_btn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f79ede21-bb9c-4dc4-9e49-587cbbe6c156",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "1000"
+    }, {
+      "id": "bc76759f-0316-4bea-a697-54026c1af83d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio:nth-child(4) input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abb18807-cb79-4ee7-bd23-147c1a28a6a4",
+      "comment": "",
+      "command": "click",
+      "target": "name=new-blogs-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f967177-d310-4a1c-bb91-845b4ae29c93",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.block:nth-child(1) > h1",
+      "targets": [],
+      "value": "Популярное"
+    }]
+  }, {
+    "id": "4e3967b8-f209-4fe7-bd5f-767bd8ddfca5",
+    "name": "AuthorizationTest",
+    "commands": [{
+      "id": "5fbc498e-ea30-4370-bf38-ae4a9087dc13",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2880bebd-ea70-4fd7-a6cc-90ff44a4bc07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.i-lock",
+      "targets": [
+        ["css=.i-lock", "css:finder"],
+        ["xpath=//div[@id='navbar_user-collapse']/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "947b3190-2ec8-4275-99bb-b5bc0429322b",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginform-username",
+      "targets": [
+        ["id=loginform-username", "id"],
+        ["name=LoginForm[username]", "name"],
+        ["css=#loginform-username", "css:finder"],
+        ["xpath=//input[@id='loginform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bf73146-e0c4-4fe1-84f0-418cf498e0af",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginform-username",
+      "targets": [
+        ["id=loginform-username", "id"],
+        ["name=LoginForm[username]", "name"],
+        ["css=#loginform-username", "css:finder"],
+        ["xpath=//input[@id='loginform-username']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/form/div/input", "xpath:position"]
+      ],
+      "value": "TestTset2"
+    }, {
+      "id": "da37da8d-e9a1-43db-a45a-fe891be9255b",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginform-password",
+      "targets": [
+        ["id=loginform-password", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#loginform-password", "css:finder"],
+        ["xpath=//input[@id='loginform-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e92ffd2-bf5e-4bf8-bf83-4cc1fd48315e",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginform-password",
+      "targets": [
+        ["id=loginform-password", "id"],
+        ["name=LoginForm[password]", "name"],
+        ["css=#loginform-password", "css:finder"],
+        ["xpath=//input[@id='loginform-password']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "TestTset2"
+    }, {
+      "id": "8a2a556a-22fe-4390-a87c-fee07f19ed6c",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginform-rememberme",
+      "targets": [
+        ["id=loginform-rememberme", "id"],
+        ["css=#loginform-rememberme", "css:finder"],
+        ["xpath=//input[@id='loginform-rememberme']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div[3]/div/label/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7c7fdac-b766-4231-839c-842fa2819af1",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "478d13fb-f521-43a6-939c-6694a73f0d0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.recaptcha-checkbox-border",
+      "targets": [
+        ["css=.recaptcha-checkbox-border", "css:finder"],
+        ["xpath=//span[@id='recaptcha-anchor']/div", "xpath:idRelative"],
+        ["xpath=//span/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84cdd91d-d01e-42db-9f7a-531646da83cb",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "acf279e3-647f-49cb-aeb7-f4f66c7f6991",
+      "comment": "",
+      "command": "click",
+      "target": "id=login_btn",
+      "targets": [
+        ["id=login_btn", "id"],
+        ["name=login-button", "name"],
+        ["css=#login_btn", "css:finder"],
+        ["xpath=//button[@id='login_btn']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aef616b-f5be-446b-b8c4-e9891e936e12",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wrapper > .container",
+      "targets": [
+        ["css=#wrapper > .container", "css:finder"],
+        ["xpath=//div[@id='wrapper']/div", "xpath:idRelative"],
+        ["xpath=//body/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74687745-ea20-4a7f-a936-feaddeab688f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.block:nth-child(1) > h1",
+      "targets": [
+        ["css=.block:nth-child(1) > h1", "css:finder"],
+        ["xpath=//div[@id='page_content']/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Популярное')]", "xpath:innerText"]
+      ],
+      "value": "Популярное"
+    }]
+  }],
+  "suites": [{
+    "id": "b96a534b-3342-4997-be64-b75721c046ce",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1cf4aac1-f3b6-49b9-ac56-7e63c1af5ebc"]
+  }],
+  "urls": ["https://diary.ru/"],
+  "plugins": []
+}
